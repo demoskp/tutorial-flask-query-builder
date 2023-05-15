@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "flask-query-builder-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["Demos Petsas <demos@petsas.consulting>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.3.2"
+SQLAlchemy = "^2.0.13"
+flask-query-builder = "^0.2.2"
+Flask-RESTful = "^0.3.9"
+flask-marshmallow = "^0.15.0"
+marshmallow-sqlalchemy = "^0.29.0"
+Flask-SQLAlchemy = "^3.0.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
