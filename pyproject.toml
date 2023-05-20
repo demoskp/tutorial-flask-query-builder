@@ -8,11 +8,11 @@ authors = ["Demos Petsas <demos@petsas.consulting>"]
 python = "^3.10"
 Flask = "^2.3.2"
 SQLAlchemy = "^2.0.13"
-flask-query-builder = "^0.2.2"
 Flask-RESTful = "^0.3.9"
 flask-marshmallow = "^0.15.0"
 marshmallow-sqlalchemy = "^0.29.0"
 Flask-SQLAlchemy = "^3.0.3"
+flask-query-builder = "^0.2.2"
 
 [tool.poetry.dev-dependencies]
 
